@@ -6,8 +6,7 @@
 }
 
 a{
-    text-decoration: none;
-    
+    text-decoration: none; 
 }
 
 body{
@@ -19,17 +18,17 @@ header{
     display: flex;
     justify-content:space-between;
     align-items: center;
+    padding: 1rem;
 }
 
 h1{
     font-size: 3rem;
-    display: inline;
 }
 
 nav ul li{
     display: inline;
     text-decoration: none;
-    font-size: large;
+    font-size: larger;
     margin-right: .5rem;
 }
 
@@ -37,8 +36,12 @@ nav ul li a{
     color: #fff;
 }
 
+section img {
+    width: 100%;
+}
+
 
 #profile {
-    width: 40%;
+    width: 30%;
     height: auto;
 }
