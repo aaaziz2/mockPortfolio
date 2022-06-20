@@ -40,8 +40,28 @@ section img {
     width: 100%;
 }
 
+main{
+    display: flex;
+}
+
+aside{
+    flex: 30%;
+    flex-wrap: wrap;
+    background-color: #91B7C7;
+}
+
+aside h2{
+    font-size: 2rem;
+    text-align: center;
+}
+
+aside p{
+    display: inline;
+    justify-content: flex-start;
+}
 
 #profile {
     width: 30%;
     height: auto;
+    align-items: center;
 }
