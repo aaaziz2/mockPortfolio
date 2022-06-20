@@ -50,18 +50,35 @@ aside{
     background-color: #91B7C7;
 }
 
-aside h2{
+h2{
     font-size: 2rem;
     text-align: center;
 }
 
-aside p{
-    display: inline;
-    justify-content: flex-start;
+aside{
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex: 1 1 200px;
 }
 
 #profile {
     width: 30%;
     height: auto;
     align-items: center;
+}
+
+.projects{
+   
+}
+
+footer{
+    padding: 1rem;
+    text-align: center;
+}
+
+footer ul li a{
+    color: #403F4C}
+
+h3{
+    font-size: 1.5rem;
 }
