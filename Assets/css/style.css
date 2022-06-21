@@ -52,7 +52,7 @@ section img {
 
 aside{
     background-color: var(--aside);
-    padding-bottom: 1rem;
+    padding: 1rem;
     color: #fff;
     border-color: var(--aside);
 }
