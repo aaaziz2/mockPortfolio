@@ -1,3 +1,4 @@
+/* css variables for easily changing colors */
 :root{
     --header:#E84855;
     --body:#3185FC;
@@ -13,6 +14,7 @@
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+/* For taking away the underline mostly*/
 a{
     text-decoration: none; 
 }
@@ -43,8 +45,6 @@ nav ul li{
 nav ul li a{
     color: #fff;
 }
-
-
 
 section img {
     width: 100%;
@@ -77,14 +77,17 @@ h2{
     width: 10%;
 }
 
-.projects{
+#projects{
    display: flex;
    flex-wrap: wrap;
 }
 
+#projects h2{
+    display: block;
+}
+
 .card {
-    
-    flex: auto;
+    flex: 1 1 400px;
     padding: 10px;
     text-align: center;
     border-style: solid;
