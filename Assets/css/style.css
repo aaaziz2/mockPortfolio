@@ -72,6 +72,7 @@ aside{
 }
 
 h2{
+    padding: 1rem;
     font-size: 2.5rem;
     text-align: center;
 }
@@ -81,6 +82,7 @@ h2{
 }
 
 #projectContainer{
+   margin: auto;
    display: flex;
    flex-wrap: wrap;
    justify-content: space-around;
@@ -94,6 +96,7 @@ h2{
     padding: 1rem;
     border-style: solid;
     border-width: 5px;
+    margin-bottom: 1rem;
 }
 
 .card {
@@ -103,7 +106,7 @@ h2{
     text-align: center;
     border-style: solid;
     border-width: 5px;
-    /* justify-content: center; */
+    margin-bottom: 1rem;
   }
 
 footer{
