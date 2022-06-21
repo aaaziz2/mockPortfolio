@@ -123,17 +123,25 @@ h3{
 }
 
 
-
-
-
 @media screen and (max-width: 992px) {
     .card {
       width: 50%;
     }
     /* Change the header color */
     header {
-      background: #772014;
+      background: #D64933;
     }
+    body{
+        color: #fff;
+        background: #0C7C59;
+    }
+    aside{
+        background: #2B303A;
+    }
+    footer{
+        background: #BAC1B8;
+    }
+
   }
 
   @media screen and (max-width: 768px) {
@@ -142,7 +150,14 @@ h3{
     }
     /* Change the header color */
     header {
-      background: #8ac4ff;
+      background: #58A4B0;
     }
   }
   
+  /* Added so that the nav items are seperate from the title. */
+  @media screen and (max-width: 508px){
+    header{
+        flex-direction: column;
+        
+    }
+  }
