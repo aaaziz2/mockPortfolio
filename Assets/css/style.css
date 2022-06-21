@@ -10,11 +10,11 @@ a{
 }
 
 body{
-    background-color: #6cbeed;
+    background-color: #3185FC;
 }
 
 header{
-    background-color: #6EB4D1;
+    background-color: #E84855;
     display: flex;
     justify-content:space-between;
     align-items: center;
@@ -43,8 +43,10 @@ section img {
 }
 
 aside{
-    background-color: #6EB4D1;
+    background-color: #403F4C;
     padding-bottom: 1rem;
+    color: #fff;
+    border-color: #403F4C;
 }
 
 
@@ -81,9 +83,11 @@ h2{
     text-align: center;
     border-style: solid;
     border-width: 5px;
+    /* border-color: #EFBCD5; */
   }
 
 footer{
+    background-color: #F9DC5C;
     padding: 1rem;
     text-align: center;
 }
